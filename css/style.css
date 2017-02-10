@@ -1,0 +1,465 @@
+/*STYLE*/
+a{text-decoration:none; color:#000;}
+body{font-family:'PT Sans', sans-serif;}
+
+
+
+.container{
+	width: 960px;
+	padding:0 10px;
+	margin:0 auto ;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+.active{
+	font-weight: bold;
+}
+
+.btn-btn{
+	padding:0 20px;
+	line-height: 44px;
+	
+
+}
+
+ul li {
+	list-style: none;
+}
+/*header*/
+header{
+	
+	background-color: #ffcc33;
+}
+
+.cont-header a{
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.cont-header a img, .cont-header span{
+	vertical-align: middle;
+}
+.cont-header a img{
+	margin-right: 10px;
+}
+
+.cont-header span{
+	font-size: 24px;
+}
+
+.nav-header{
+	text-align: right;
+	padding-left: 110px;
+ }
+.nav-header{display:inline-block;}
+header ul li{
+	list-style:none;
+ display:inline-block;
+ padding:0 15px;
+ font-size: 16px;
+ 
+}
+.btn-header{
+	background-color: #ffe184;
+	}
+
+
+
+
+/*promo*/
+.promo {
+	background-image: url(../img/promo.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-top:130px;
+	padding-bottom:120px;
+	text-align: center;
+	color:#fff;
+}
+ .promo span{
+ 	text-transform: uppercase;
+ 	font-size: 44px;
+ 	font-weight: bold;
+ }
+
+.promo h1{
+	font-size: 20px;
+	color:#cccccc;
+	margin-bottom: 30px;
+	
+}
+
+.promo-form-form input, .promo a{
+	vertical-align: middle;
+}
+
+.promo a{
+	padding:0px 20px; 
+	border:2px solid #ffcc33;
+	line-height: 42px;
+	color:#fff; 
+	}
+
+.promo a span{
+	vertical-align: middle;
+	font-size:18px;
+	font-weight:bold;
+}
+.promo a:after{
+	content:'>';
+	font-size: 36px;
+	padding-left: 10px;
+	vertical-align: middle;
+}
+
+.promo-form{
+	background-color: #202e3b;
+	padding:40px 0;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.promo-form section h2{
+	color:#ffcd34;
+	font-size:24px;
+}
+.promo-form-form input {
+	padding: 0px 10px;
+    background-color: #202e3b;
+    border: 2px solid #ffcc33;
+    font-size:16px;
+    color:#fff;
+    margin-right: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 40px;
+}
+.btn-form-form{
+	font-size:18px;
+	background-color: #ffcd34;
+	
+
+}
+
+/*advantege*/
+
+.advantage-item, .advantage-item span{
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.advantage-item{
+	margin-right:5px;
+	overflow: hidden;
+	vertical-align: middle;
+	margin-bottom: 40px;
+	font-size: 13px
+}
+
+.advantage-img{
+	width:50px;
+	height:50px;
+	/*margin-right: 10px;*/
+}
+.advantage-p{
+	width:170px;
+}
+.advantage-tools{
+	background: url(../img/icon-work.png) -25px -17px no-repeat;
+}
+.advantage-work{
+	background: url(../img/icon-work.png) -25px -91px no-repeat;
+
+}
+.advantage-border{
+	background: url(../img/icon-work.png) -25px -171px no-repeat;
+
+}
+.advantage-operator{
+	background: url(../img/icon-work.png) -25px -244px no-repeat;
+
+}
+.avantage-item span{
+
+}
+
+/*equipment*/
+.equipment{
+	background-color: #f3f3f3;
+	padding:20px 0;
+}
+.equipment-nav, .equipment-offers{
+	display:inline-block;
+	vertical-align: top;
+}
+.equipment-nav{
+	width:240px;
+}
+.equipment-nav-list{
+	padding-left: 0;
+}
+
+.equipment-nav-list li a {
+	margin-bottom: 20px;
+	text-decoration: underline;
+}
+
+ .equipment-offers-table tr td {
+ 	text-align: center;
+ }
+
+.equipment-offers-table tr:nth-child(2n+1){
+background-color: #fff;
+}
+.equipment-offers-table tr:nth-child(1){
+background-color: #dfdfdf;
+}
+
+.equipment-offers-table tr td:nth-child(2n){
+	width:140px;
+
+}
+.equipment-offers-table tr td:nth-child(2n+1){
+	width: 150px;
+}
+
+ .equipment-offers-table tr td:nth-child(1),
+ .equipment-offers-table tr td:nth-child(n+5){
+	width:230px;
+	padding: 10px 0 10px 10px;
+	text-align: left;
+}
+
+
+
+
+/*about*/
+
+.numbers, .reviews{
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+/*about*/
+.about{
+	background-color: #202e3b;
+	padding: 30px 0;
+}
+ .about section{
+ 	display: inline-block;
+ 	vertical-align: top;
+ }
+
+ .about h2{
+ 	color:#fff;
+ }
+.numbers-list{
+	padding-left: 0;
+}
+
+.numbers-list li, .numbers-list li span{
+	vertical-align: middle;
+}
+
+.numbers-list li span{
+	font-size:38px ;
+	font-weight: bold;
+	color: #f1b132 ;
+	padding-right: 20px;
+}
+
+.numbers-list li{
+	color:#dfdfdf;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+ .reviews{
+ 	width:620px;
+ 	padding-left: 40px;
+ 	font-size: 18px;
+ }
+.reviews-item img, .reviews-item blockquote{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.reviews-review, .reviews-text{
+	margin-top: 0;
+	margin-right: 0;
+}
+.reviews-review{
+	margin-bottom: 40px;
+}
+.reviews-item blockquote{
+	margin-right: 0: 
+
+}
+.reviews-item blockquote {
+	width: 410px;
+}
+
+.reviews-img{
+	border: 2px solid #ffcc33;
+	border-radius: 10px;
+}
+
+.reviews-text{
+	font-style: italic;
+	color:#fff;
+}
+
+.reviews-author{
+	color:#ffcc33;
+}
+
+
+
+/*PORTFOLIO*/
+
+.main-portfolio{
+	background-image:url(../img/portfolio_bckgr_menu.jpg);
+	background-size: 100%;
+	background-position: center;
+	/*width: 100%;*/
+	padding: 20px 0 40px 0;
+	height: 40px;
+
+}
+.portfolio-h2, .filter, .filter-portfolio {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.portfolio-h2{
+	font-size: 24px;
+	color:#ffcd34;
+}
+.filter{
+	padding-left:110px;
+}
+.filter-portfolio{
+	margin-left:40px;
+}
+.filter-portfolio a{
+	text-decoration: underline;
+	color:#fff;
+}
+.stroy{
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	border-top: 10px solid #000;
+}
+.container-stroy{
+	padding-top: 110px;
+}
+.opisanie-stroitelstvo{
+	width: 320px;
+	padding: 30px;
+	background-color: #fff;
+}
+.h2-stroy{
+	font-size: 20px;
+	font-weight: bold;
+}
+.p-stroy{
+	font-size: 14px;
+}
+
+.stroitelstvo-1{
+	background-image: url(../img/portfolio1.jpg);
+}
+
+.stroitelstvo-2{
+	background-image: url(../img/portfolio2.jpg);
+	
+}
+.stroitelstvo-3{
+	background-image: url(../img/portfolio3.jpg);
+	
+}
+
+
+/*CATALOG*/
+
+.tech-rent{
+	background-image: url(../img/catalog_bckgr_menu.jpg);
+	background-size: 100%;
+	background-position: center;
+	height: 190px;
+	
+}
+
+.tech-rent h1{
+	font-size: 26px;
+	color:#ffcd34;
+}
+
+.tech-rent p{
+	font-size: 16px;
+	color:#fff;
+	width: 650px;
+	float: left;
+	overflow: hidden;
+
+}
+
+.consult{
+	width: 240px;
+	float: right;
+	overflow: hidden;
+}
+
+
+ /*footer*/
+ footer{
+ 	background-color: #202e3b;
+ 	color#fff;
+ }
+
+ footer a {
+ 	color:#ffcc33;
+ }
+
+ .container a, .container a img, .container a span, .nav-header {
+ 	display: inline-block;
+ 	vertical-align: middle;
+
+ }
+
+ .nav-bottom ul li a{
+ 	color:#fff;
+ }
+.nav-header ul li{
+display: inline-block;
+padding:0 15px;
+}
+
+.btn-footer{
+	color:#ffcc33;
+}
+
+.btn-stroy{
+	line-height: 42px;
+	background-color: #ffcd34;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0 20px;
+
+}
+
+.btn-stroy span:after{
+	content: '>';
+	font-size: 40px;
+	margin-left: 10px;
+}
+.btn-stroy span, .btn-stroy span:after {
+	vertical-align: bottom;
+}
