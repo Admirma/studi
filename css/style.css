@@ -14,9 +14,21 @@ body{font-family:'PT Sans', sans-serif;}
 	box-sizing: border-box;
 	
 }
-.active{
+
+.a-aktiv-header{
 	font-weight: bold;
 }
+
+}
+.nav-header ul li a{
+	padding: 0 19px;
+	line-height: 44px;
+}
+.nav-header ul li a:hover{
+	background-color: #ffd554;
+	
+}
+
 
 .btn-btn{
 	padding:0 20px;
@@ -55,8 +67,9 @@ header{
 	padding-left: 110px;
  }
 .nav-header{display:inline-block;}
+
 header ul li{
-	list-style:none;
+
  display:inline-block;
  padding:0 15px;
  font-size: 16px;
@@ -318,7 +331,9 @@ background-color: #dfdfdf;
 	color:#ffcc33;
 }
 
-
+.map{
+	width: 100%;
+}
 
 /*PORTFOLIO*/
 
@@ -388,12 +403,18 @@ background-color: #dfdfdf;
 
 
 /*CATALOG*/
-
+.catalog-bgr{
+	background-color: #f3f3f3;
+	padding-top: 10px;
+	overflow: hidden;
+}
 .tech-rent{
 	background-image: url(../img/catalog_bckgr_menu.jpg);
-	background-size: 100%;
+	background-size: cover;
 	background-position: center;
-	height: 190px;
+	overflow: hidden;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	
 }
 
@@ -405,19 +426,280 @@ background-color: #dfdfdf;
 .tech-rent p{
 	font-size: 16px;
 	color:#fff;
-	width: 650px;
-	float: left;
+		float: left;
 	overflow: hidden;
 
 }
 
+.tech-rent-item{
+	float: left;
+}
 .consult{
 	width: 240px;
 	float: right;
 	overflow: hidden;
+	font-size: 16px;
+	margin-top: 18px;
+}
+
+.predloz-katalog{width: 650px;}
+
+.catalog, .catalog-items, .catalog-karts{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.catalog{
+	width: 220px;
+	float:left;
+}
+.catalog ul{padding-left: 0;
+}
+
+.logo-catalog{
+width:30px;
+height: 30px;
+}
+
+.logo-catalog, .catalog h2{
+	display: inline-block;
+	vertical-align: middle;
+}
+.catalog-li{
+	margin-bottom: 20px;
+	text-decoration: underline;
+}
+
+.active-catalog-li{
+
+}
+.active-catalog-li:before{
+	content:'>';
+	font-size: 30px;
+	text-decoration: none;
+
+}
+
+.load-catalog-pdf{
+	background-color: #354b60;
+	color:#fff;
+	font-weight: bold;
+	
+}
+.catalog-items{
+	padding-left: 100px;
+    width: 620px;
+
+}
+
+.catalog-karts{
+	width:300px;
+	background-color: #fff;
+	padding: 20px 30px;
+	box-sizing: border-box;
+	margin-top: 20px;
+
+}
+.catalog-karts a{
+	color:#fff;
+}
+
+.catalog-karts:nth-child(2n){
+	margin-left:15px;
+}
+.catalog-karts h2{
+	font-size: 21px;
+
+
+}
+
+.karts-catalog-p strong{
+	font-size: 27px;
+
+}
+
+.karts-catalog-p{
+	font-size: 18px;
+	padding-right: 50px;
+	margin-bottom: 20px;
+
+}
+.carts-catalog-img{
+	
+    margin-bottom: 40px;
+}
+
+.karts-catalog-btn-rent{
+	float:left;
+	margin-top: 20px;
+	background-color: #f3c331;
+}
+
+.karts-catalog-btn-podrobnee{
+	margin-top: 20px;
+	background-color: #354b60;
+}
+
+.paginaciya{
+	text-align: center;
+}
+.paginaciya-li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.active-paginaciya-li{
+	background-color: #354b60;
+	border-radius: 5px;
+	padding: 5px 10px;
+	color:#fff;
+}
+
+.specpred{
+	background-image: url(../img/catalog_bckgr_bottom.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 40px;
+	padding-bottom: 50px;
+
+}
+.specpred-h2{
+	color:#fff;
+
 }
 
 
+.catalog-spec-pred:nth-child(2){
+	margin-left: 0px;
+}
+.catalog-spec-pred:nth-child(3){
+	margin-left: 15px;
+}
+
+/*CONTACT*/
+
+.contakt-form-top{
+	background-image: url(../img/сontacts_bckgr_menu.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	overflow: hidden;
+
+
+}
+.contakts-h1{
+	color:#ffcd34;
+}
+.contakts-h1, .redloz-katalog-btn{
+	display: inline-block;
+	
+}
+
+.contakt-kart{
+	background-color: #f3f3f3;
+	padding-top: 40px;
+	padding-bottom: 90px;
+}
+.map-contacts{
+	float:left;
+	margin-right: 20px;
+}
+
+
+.form-contakt-text-mail, .form-contakt-text-tel{
+	position: relative;
+	padding-left: 40px;
+	display: inline-block;
+
+}
+.form-contakt-text-tel{
+	margin-bottom: 20px;
+}
+.form-contakt-text-mail{
+	margin-bottom: 27px;
+}
+
+.contakt-form h2{
+	font-size: 16px;
+}
+
+.contakt-form-input{
+	width: 300px;
+	height: 40px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	color:#dfdddd;
+}
+
+.contakt-btn-a{
+	background-color: #354b60;
+	width: 260px;
+	color:#fff;
+}
+.contakt-form-input-last{
+	height: 100px;
+	padding-bottom: 50px;
+}
+.form-contakt-text-tel:before{
+    content: '';
+    background: url(../img/icon-contact.png) -20px -12px no-repeat;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-right: 20px;
+    left: 0;
+
+}
+
+
+
+.form-contakt-text-mail:before{
+	content: '';
+    background: url(../img/icon-contact.png) -20px -52px no-repeat;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+     margin-right: 20px;
+     left: 0;
+}
+
+.contakts-h1-span{
+	font-size: 16px;
+	color:#fff;
+	margin-left: 10px;
+}
+
+/*.predloz-katalog-btn{
+	background-color: #ffcd34;
+	margin-left: 307px;
+}*/
+
+.otziv{
+	padding-top: 30px;
+}
+.otziv-card{
+	display: inline-block;
+	width: 220px;
+	text-align: center;
+	margin-right: 20px;
+
+}
+
+.otziv-card:last-child{
+	margin-right: -20px;
+}
+
+.bct-otziv{
+	font-style: italic;
+	margin-left: 0;
+	margin-right: 0;
+}
+.bct-city{
+	font-weight: bold;
+}
  /*footer*/
  footer{
  	background-color: #202e3b;
@@ -433,11 +715,13 @@ background-color: #dfdfdf;
  	vertical-align: middle;
 
  }
-
+/*.nav-bottom{
+	padding-left: 0;
+}*/
  .nav-bottom ul li a{
  	color:#fff;
  }
-.nav-header ul li{
+.nav-bottom ul li{
 display: inline-block;
 padding:0 15px;
 }
@@ -463,3 +747,7 @@ padding:0 15px;
 .btn-stroy span, .btn-stroy span:after {
 	vertical-align: bottom;
 }
+
+a:hover{
+	background-color: #ffd554;
+	color:#000;

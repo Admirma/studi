@@ -2,86 +2,119 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Спецтех24</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 	<header>
-		<nav class="nav-heade">
-			<ul>
-				<li><a href="#" class="a-aktiv-header">О компании</a></li>
-				<li><a href="#">Каталог</a></li>
-				<li><a href="#">Портфолио</a></li>
-				<li><a href="#">Контакты</a></li>
-			</ul>
-			<button class="btp-header"><a href="#">Заказать звонок</a></button>
-			
-		</nav>
-	</header>
-	<main>
-		<section>
-			<h1>Контакты</h1>
-			<span class="kontakts-h1-span">Свяжитесь с нами</span>
-			<button class="predloz-katalog-btn">Мне нужна консультация</button>
-
-
-			<div class="contakt">
-				<div class="map"></div>
-				<div class="contakt-form">
-					<img class="form-contakt tel " src="" alt=""/><span class="form-contakt-text-tel">+7 (812) 212 85 06</span> 
-					<img class="form-contakt mail " src="" alt=""/><span class="form-contakt-text-mail">rent@spezteh.ru</span> 
-					<h2>Заказать консультацию бесплатную консультацию</h2>
-					<form action="" class="promo-form"></form>
-				</div>
-			</div>
-			<article class="otziv">
-				<h2></h2>
-				<div class="otziv-card">
-					<img src="" alt="" class="1">
-					<blockquote class="bct-otziv">
-						<city class="bct-city"></city>
-					</blockquote>
-					<div class="otziv-card">
-						<img class="1" src="" alt="" class="1">
-						<blockquote class="bct-otziv">
-							<city class="bct-city"></city>
-						</blockquote>
-					</div>
-					<div class="otziv-card">
-						<img class="1" src="" alt="" class="1">
-						<blockquote class="bct-otziv">
-							<city class="bct-city"></city>
-						</blockquote>
-					</div>
-					<div class="otziv-card">
-						<img class="1" src="" alt="" class="1">
-						<blockquote class="bct-otziv">
-							<city class="bct-city"></city>
-						</blockquote>
-					</div>
-				</article>
-			</section>
-		</main>
-
-
-
-		<footer>
-			<a href="/" class="logo">
-				<img src="http://placehold.it/50x50" alt="" class="logo-img">
-				<span class="logo-text"><b>Cпецтех</b>24</span>
-			</a>
-			<nav class="main-nav">
+		<div class="container cont-header">
+			<a href="index.html"><img src="img/logo.png" alt="Спецтех"><span><b>Спецтех</b> 24</span></a>
+			<nav class="nav-header">
 				<ul>
-					<li><a href="#">Далеко-далеко.</a></li>
-					<li><a href="#">Переписывается!</a></li>
-					<li><a href="#">Свое!</a></li>
-					<li><a href="#">На берегу!</a></li>
-					<li class="order-call"><a href="#">Возвращайся.</a></li>
+					<li><a href="#">О компании</a></li>
+					<li><a href="catalog.html">Каталог</a></li>
+					<li><a href="portfolio.html">Портфолио</a></li>
+					<li><a href="contakts.html" class="a-aktiv-header">Контакты</a></li>
+					<li><a href="#" class="btn-btn btn-header">Заказать звонок</a>
+					</li>
 				</ul>
 			</nav>
-		</footer>
-	</body>
+		</div>
+	</header>
+	<main>
+		<div class="contakt-form-top">
+			<div class="container">
+				<h1 class="contakts-h1">Контакты
+					<span class="contakts-h1-span">Свяжитесь с нами и всё будет хорошо</span></h1>
+					<a href="" class="btn-btn predloz-katalog-btn">Мне нужна консультация</a>
+				</div>
+			</div>
+
+			<section>
+
+				<div class="contakt-kart">
+					<div class="container">
+						<div class="map-contacts"><iframe src="https://api-maps.yandex.ru/frame/v1/-/CZtVyYZd" width="620" height="400" frameborder="0"></iframe>
+						</div>
+						<div class="contakt-form">
+							<span class="form-contakt-text-tel">+7 (812) 212 85 06</span> 
+							<span class="form-contakt-text-mail">rent@spezteh.ru</span> 
+							<h2>Заказать консультацию по подбору подходящей техники:</h2>
+							<input class="contakt-form-input" type="" name="Имя" value="Имя"/>
+							<input class="contakt-form-input" type="" name="Телефон для связи" value="Телефон для связи"/>
+							<input class=" contakt-form-input contakt-form-input-last" type="" name="Описание задачи (можно проимерно)" value="Описание задачи (можно проимерно)" />
+							<a href="#"class="btn-btn contakt-btn-a">Получить консультацию</a>
+						</div>
+					</div>
+					<article class="otziv">
+						<div class="container">
+							<h2>Отзывы</h2>
+							<div class="otziv-card">
+								<img src="img/feedback1.png" alt="" class="otziv-card-img">
+								<blockquote class="bct-otziv">
+									<p class="bct-otziv-p">
+										Спецтех24 – это надежные партнеры нашей компании, которые всегда выполняют работу быстро и еще у них отличное чувство юмора! Благодарим и рекомендуем.
+									</p>
+									<city class="bct-city">Оля Молния</city>
+								</blockquote>
+							</div>
+							<div class="otziv-card">
+								<img class="otziv-card-img" src="img/feedback2.png" alt="">
+								<blockquote class="bct-otziv">
+									<p class="bct-otziv-p">
+										Спецтех24 – это надежные партнеры нашей компании, которые всегда выполняют работу быстро и еще у них отличное чувство юмора! Благодарим и рекомендуем.</p>
+										<city class="bct-city">Оля Молния</city>
+									</blockquote>
+								</div>
+								<div class="otziv-card">
+									<img class="otziv-card-img" src="img/feedback3.png" alt="">
+									<blockquote class="bct-otziv">
+										<p class="bct-otziv-p">
+											Спецтех24 – это надежные партнеры нашей компании, которые всегда выполняют работу быстро и еще у них отличное чувство юмора! Благодарим и рекомендуем.</p>
+											<city class="bct-city">Оля Молния</city>
+										</blockquote>
+									</div>
+									<div class="otziv-card">
+										<img class="otziv-card-img" src="img/feedback4.png" alt="">
+										<blockquote class="bct-otziv">
+											<p class="bct-otziv-p">
+												Спецтех24 – это надежные партнеры нашей компании, которые всегда выполняют работу быстро и еще у них отличное чувство юмора! Благодарим и рекомендуем.</p>
+												<city class="bct-city">Оля Молния</city>
+											</blockquote>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+
+					</section>
+				</main>
+
+
+
+				<footer>
+					<div class="container">
+						<a href="index.html"><img src="img/footer_logo.png" alt="Спецтех"/>
+							<span><b>Спецтех</b> 24</span></a>
+							<nav class="nav-header nav-bottom">
+								<ul>
+									<li><a href="#" class="a-aktiv-header">О компании</a></li>
+									<li><a href="catalog.html">Каталог</a></li>
+									<li><a href="portfolio.html">Портфолио</a></li>
+									<li><a href="contakts.html">Контакты</a></li>
+
+									<a href="#" class="btn-btn btn-footer">Заказать звонок</a>
+
+
+								</ul>
+							</nav>
+						</div>
+					</footer>
+				</body>
 
 
 
 
-	</html>
+				</html>
